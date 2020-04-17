@@ -1,0 +1,155 @@
+nav{
+  height: 90px;
+  background:black;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  margin-top: -8px;
+  margin-right: -5px;
+
+
+  
+}
+span{
+  padding: 10px;
+
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+body{
+	background-image: url(https://i.pinimg.com/originals/90/fb/24/90fb247e4d4244ece0831b60d0f3fad7.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.img-container{
+	width: 400px;
+	height: 400px;
+	background-color: #272537;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: white;
+	box-shadow: 9px 4px 7px black;
+	color: white;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	margin-bottom: 20px;
+
+}
+.mpr-icons{
+	width: 400px;
+	height: 250px;
+
+}
+.co-container{
+  background-image: url(https://i.pinimg.com/originals/f1/eb/cf/f1ebcf7e1934fe7dc416f7a5cf449060.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border:2px;
+
+}
+.co-icon,.main{
+  color: white;
+}
+flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.myinfo{
+  letter-spacing: 3px;
+}
+@media only  screen and (max-width: 730px){
+body{
+	background-image: url(https://i.pinimg.com/originals/90/fb/24/90fb247e4d4244ece0831b60d0f3fad7.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+.img-container{
+	width: 200px;
+	height: 400px;
+	background-color: #272537;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: white;
+	box-shadow: 9px 4px 7px black;
+	color: white;
+	margin-bottom: 15px;
+	margin-right: 10px;
+
+}
+.mpr-icons{
+	width: 200px;
+	height: 250px;
+
+}
+.co-container{
+  background-image: url(https://i.pinimg.com/originals/f1/eb/cf/f1ebcf7e1934fe7dc416f7a5cf449060.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border:2px;
+
+}
+.co-icon,.main{
+  color: white;
+}
+flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.myinfo{
+  letter-spacing: 3px;
+}
+
+}

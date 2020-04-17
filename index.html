@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prashant AG|Portfolio</title>
+	<meta charset="utf-8">
+    <meta name="description" content=""
+    />
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+
+<script type="text/javascript" src="index.js"></script>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="icon" type="image/png" href="img/favicon.png">
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<SCRIPT language=JavaScript>
+
+<!-- http://www.spacegun.co.uk -->
+
+var message = "function disabled";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+document.onmousedown = rtclickcheck;
+
+</SCRIPT>
+<style>
+#el{
+cursor:pointer;
+}
+</style>
+</head>
+<body bgcolor="black">
+	<!--<header>
+<div class="slideshow-container" >
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/01.jpg" class="imgb">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/4.jpg" class="imgb">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/3.jpg"  class="imgb">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+
+
+</div>
+
+
+
+</header>-->
+<nav>
+	<center>
+<span><a href="#home"> HOME</a></span><span><a href="#prjct"> PROJECTS</a></span>
+<span><a href="#contact">CONTACT</a></span>
+</center>
+</nav>
+<main>
+	<div class="pro-container" id="home">
+		<center><div class="effect">
+		<img src="img/proo.jpg" style="width: 250px;height: 200px;"/ class="propic">
+		<h1 class="name" style="font-family: sans-serif ; font-weight: bolder; margin-top: 40px; color: #391e22;">PRASHANT GANIGER</h1>
+		<h3 style="color:#001B48; margin-top: -10px; font-weight: bold;" > FrontEnd Developer</h3>
+
+		
+	<h4 id="el">SKILLS --></h4></div>
+	<div id="skill">
+		
+	
+		
+
+		<table align="center" border="2" class="cell" width="400px">
+<caption></caption>
+	<tr>
+		<th rowspan="2">FrontEnd Tools &Frame works</th>
+	<td><p>HTML5,CSS3,JAVASCRIPT(ES6)</p></td>
+		
+	</tr>
+	<tr>
+		<td>Jquery,Ajax,Bootstrap,<br>Reactjs(learning)</td>
+	</tr>
+	<tr>
+		<th>Other Languages</th>
+		<td><p>PHP(beginner),PYTHON(beginner)</p></td>
+	</tr>
+	
+
+		</table></center>
+	</div>
+	
+	</div>
+	<script type="text/javascript">
+		var a=document.querySelector('#skill');
+		var title=document.getElementById('el')
+		console.log(a)
+		console.log(title)
+		title.addEventListener('click',function(){
+			a.style.display='block';
+			title.style.display='none';
+		})
+		a.addEventListener('click',function(){
+			a.style.display='none'
+			title.style.display='block';
+		})
+			
+		
+	</script>
+	<div class="pr-container" id="prjct">
+		<center><h2 class="pr-title" style="font-family:Times New Roman;"> Projects</h2></center>
+	<div class="project">
+
+		<div class="pr">
+			<a href="http://agprashant7.ueuo.com/clgg/index.html" target="_blank"><img src="img/prj1.png" class="rpr"></a>
+			<p class="p-title">Techno-Cultural Website</p>
+			<p class="p-desc">Tools:HTML,CSS,Bootstarp,PHP ,Javascript</p>
+		</div>
+		<div class="pr"><a href="https://prashantaganiger.000webhostapp.com/del.html" target="_blank"><img src="img/prj2.png"   class="rpr"></a>
+			<p class="p-title">Course Tracker</p>
+			<p class="p-desc">Tools:HTML,CSS,Bootstarp,JavaScript</p>
+		</div>
+
+		<div class="pr">
+			<a href="http://agprashant7.ueuo.com/ecom/" target="_blank"><img src="img/prj3.png"   class="rpr"></a>
+			<p class="p-title">Ecommerce Website(Under working)</p>
+			<p class="p-desc">Tools:HTML,CSS,ES6,Ajax,Jquery</p>
+		</div>
+<div class="pr">
+			<a href="https://agprashant7-musicplayer.glitch.me/" target="_blank"><img src="img/prj4.png"   class="rpr"></a>
+			<p class="p-title">Music Player</p>
+			<p class="p-desc">Tools:React JS</p>
+		</div>
+	</div>
+<center><a href="app.html"><input type="submit" name="" value="Mini Projects >>" class="btn"></a></center></div>
+<!--certificate-->
+<div class="cr-container">
+	<h2 style="color: white" align="center" class="c-title">Certificates</h2>
+<div class="crt" id="crt">
+
+	<div class="cr">
+		<img src="img/crt1.jpg" width="400" height="250">
+	</div>
+	<div class="cr">
+		<img src="img/crt02.jpg" width="400" height="250">
+	</div>
+	</div>
+</div>
+</div>
+<!-- contact-->
+<div class="co-container" id="contact">
+	<div class="co-icon main">
+		<h2>Prashant AG</h2>
+		<p class="myinfo">Mobile:8660990439<br>BE.CSE(pursuing)<br>
+		SKSVMACET<br>Laxmeswar-582116</p>
+	</div>
+	<div class="main" id="flex">
+		<div><h4 class="myinfo">Reach Out me At</h4></div>
+<a href = "https://github.com/Agprashant7"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMB98_qHeLC90jmJ6icgpjAVaLqsZ3toD_eGm1gTT5-3lx-V_C&s" class="icons" alt="Github"></a>
+	<a href = "https://www.linkedin.com/in/prashant-ganiger-065bb718a"><img src="https://icon-library.net/images/linkedin-logo-icon/linkedin-logo-icon-7.jpg" class="icons" alt="linkedin"></a>
+	
+	<a href = "mailto: prashantaganiger@gmail.com"><img src="img/gmail.png" class="icons" alt="Gmail"></a>
+<a href = "https://codepen.io/agprashant7"><img src="img/codepen.png" class="icons" alt=""></a>
+	<a href="https://www.facebook.com/prashant.ganiger.315"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdP_DwBS03oIa9JPEHyYHE3VdIod4MHxF-apoDXaVad-mV1mE0&s" class="icons" alt="Facebook"></a>
+	</div>
+</div>
+</main>
+
+</body>
+</html>

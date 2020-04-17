@@ -1,0 +1,293 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+
+
+.imgb{
+  width: 100%;
+  height: 400px;
+}
+nav{
+  height: 90px;
+  background: linear-gradient(to bottom,#f7f8fa,#ffffff);
+  color: black;
+  font-size: 20px;
+  width: 100%;
+  margin-top: -8px;
+  margin-right: -15px;
+
+
+  
+}
+span{
+  padding: 10px;
+  margin-top: 30px;
+
+}
+a{
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+.pro-container{
+ 
+	width: 100%;
+	height: 640px;
+	background-image: url(https://www.ravsanmedia.com/web_assets/images/website.gif);
+  background-size:cover;
+  background-repeat: no-repeat;
+background-position: center;
+  margin-right: px;
+  
+
+}
+.propic{
+  display: ;
+	margin-top: px;
+	box-shadow: 5px 10px 18px black;
+	border-radius: 50%;
+
+
+}
+.name{
+
+  text-align: center;
+  
+}
+.effect{
+  
+  animation-name: shade;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  
+}
+
+@keyframes shade{
+  0%{
+    transform: translate(50px);
+    transform: scaleX(0.5 ,1);
+
+  }
+  
+  90%{
+    transform: translateX(-50px);
+  }
+}
+#skill{
+	display: none;
+
+}
+ .cell{
+width: 300px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border-color: white;
+  border-radius: 75px;
+  width: 100%;
+  box-shadow: 6px 10px 2px none;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color:#f7f6e7;
+}
+.project{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+}
+.pr-container{
+  margin-top: px;
+  background-image: url(https://ak5.picdn.net/shutterstock/videos/17025865/thumb/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.rpr{
+  width:300px ;
+  height:220px;
+}
+.pr{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 300px;
+  background-color:black;
+  box-shadow: 4px 6px 4px black;
+  color: white;
+}
+.pr-title{
+  color: white;
+  letter-spacing: 4px;
+}
+.p-title{
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.btn{
+  padding: 20px 40px;
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.btn:hover{
+  color: white;
+  background-color: #0c0c0d
+}
+.crt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+}
+.c-title{
+  letter-spacing: 3px;
+  font-family: Times;
+
+}
+.cr{
+  margin-top: 30px;
+  width: 400px;
+  height: 250px;
+  background-color: white;
+}
+
+.co-container{
+  background-image: url(https://i.pinimg.com/originals/f1/eb/cf/f1ebcf7e1934fe7dc416f7a5cf449060.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border:2px;
+
+}
+.co-icon,.main{
+  color: white;
+}
+flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer{
+  color: white;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+}
+.myinfo{
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+@media only  screen and (max-width: 730px){
+.pro-container{
+ 
+  width: 100%;
+  height: 640px;
+  background-image: url(https://www.ravsanmedia.com/web_assets/images/website.gif);
+  background-size:cover;
+    background-position: center;
+  background-repeat: no-repeat;
+} 
+.project{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center center;
+  width: 100%;
+  height: 1200px;
+  align-items: center;
+}
+.rpr{
+  width:400px ;
+  height:200px;
+}
+.pr{
+  
+  width: 400px;
+  height: 280px;
+   overflow: hidden;
+  background-color: black;
+  text-overflow: ellipsis;
+ 
+
+}
+
+.pr-container{
+  margin-top: px;
+  background-image: url(https://ak5.picdn.net/shutterstock/videos/17025865/thumb/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.crt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+
+.cr:hover{
+  transform: scale(1);
+}
+.effect{
+  animation-name: shade;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  
+}
+
+@keyframes shade{
+  0%{
+    transform: translateX();(90px);
+    transform: scale(1.5,1.5);
+
+  }
+  50%{
+    transform: translateY(20px);
+    font-weight: lighter;
+  }
+  90%{
+    transform: translateX(-50px);
+  }
+}
+
+}*
