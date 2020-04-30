@@ -114,7 +114,7 @@ td, th {
 .project{
  display: grid;
   grid-template-columns: auto auto auto;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 
   height: 700px;
@@ -229,7 +229,7 @@ footer{
 .project{
   display: grid;
   grid-template-columns: auto;
-  justify-content: center center;
+  justify-content: center;
   width: 100%;
   height: 1600px;
   align-items: center;
