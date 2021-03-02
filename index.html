@@ -14,25 +14,22 @@
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
-<SCRIPT language=JavaScript>
-
-<!-- http://www.spacegun.co.uk -->
-
-var message = "function disabled";
-
-function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
-
-if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
-
-document.onmousedown = rtclickcheck;
-document.onkeypress = function (event) {  
-event = (event || window.event);  
-if (event.keyCode == 123) {  
-	alert("disabled")
-return false;  
-}  
-}  
-</SCRIPT>
+  <script type="text/javascript">
+  	var message="Sorry this feature disabled"
+        window.oncontextmenu = function () {
+            return false;
+        }
+        $(document).keydown(function (event) {
+            if (event.keyCode == 123) {
+            	alert(message)
+                return false;
+            }
+            else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+            	alert(message)
+                return false;
+            }
+        });
+    </script>
 <style>
 #el{
 cursor:pointer;
