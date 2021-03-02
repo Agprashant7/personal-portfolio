@@ -25,7 +25,13 @@ function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which =
 if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
 
 document.onmousedown = rtclickcheck;
-
+document.onkeypress = function (event) {  
+event = (event || window.event);  
+if (event.keyCode == 123) {  
+	alert("disabled")
+return false;  
+}  
+}  
 </SCRIPT>
 <style>
 #el{
