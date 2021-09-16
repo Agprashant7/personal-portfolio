@@ -103,16 +103,18 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   border-color: white;
-  border-radius: 75px;
+  border:none;
   width: 100%;
   box-shadow: 6px 10px 2px none;
 }
 td, th {
-  border: 1px solid #dddddd;
+  border: none;
   text-align: left;
   padding: 8px;
-  background-color:#f7f6e7;
- letter-spacing:0.8;
+  color: #bad3db;
+   font-family: Times;
+
+  /*background-color:#f7f6e7;*/
 }
 .project{
  display: grid;
