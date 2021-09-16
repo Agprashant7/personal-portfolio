@@ -112,7 +112,8 @@ td, th {
   text-align: left;
   padding: 8px;
   color: #bad3db;
-   font-family: Times;
+  font-family: Times;
+ letter-spacing: 2px
 
   /*background-color:#f7f6e7;*/
 }
