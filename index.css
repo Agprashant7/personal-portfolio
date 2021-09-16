@@ -229,6 +229,9 @@ footer{
     background-position: center;
   background-repeat: no-repeat;
 } 
+ .cell{
+width: 300px;
+}
 .project{
   display: grid;
   grid-template-columns: auto;
