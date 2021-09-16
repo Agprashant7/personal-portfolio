@@ -176,13 +176,18 @@ td, th {
 .cr{
   margin-top: 30px;
   width: 400px;
-  height: 250px;
-  background-color: white;
+  height: 100%;
+ /*background-color: #151421;*/
+  letter-spacing: 3px;
+  font-family: Times;
 }
-
+/*.cr:hover{
+  transform: scale(1.7);
+}*/
 .co-container{
-  background-image: url(https://i.pinimg.com/originals/f1/eb/cf/f1ebcf7e1934fe7dc416f7a5cf449060.gif);
+ /* background-image: url(https://i.pinimg.com/originals/f1/eb/cf/f1ebcf7e1934fe7dc416f7a5cf449060.gif);*/
   background-repeat: no-repeat;
+  position: sticky;
   background-size: cover;
   display: flex;
   flex-direction: row;
