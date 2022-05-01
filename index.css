@@ -114,7 +114,7 @@ td, th {
 }
 .project{
  display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto ;
   justify-content: center;
   width: 100%;
 
